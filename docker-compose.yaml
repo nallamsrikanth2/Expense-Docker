@@ -21,7 +21,7 @@ services:
     image: frontend:v1
     container_name: frontend
     depends_on:
-      - frontend
+      - backend
     ports:
       - "80:80"
 
